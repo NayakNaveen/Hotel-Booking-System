@@ -1,0 +1,36 @@
+body{
+    background: rgb(42, 216, 36);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.division1{
+    background: white;
+    position: absolute;
+    margin: auto;
+    height: 80%;
+    width: 55%;
+    border-radius: 20%;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    padding: 15;
+    border: 20px double rgb(42, 216, 36);
+}
+.btn{
+    background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+    border-radius: 10px;
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section>
+        <ul class="navbar">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./rooms.html">Rooms & Rates</a></li>
+            <li><a href="./contacts.html">Contact</a></li>
+            
+        </ul>
+		<h1 style="font-family:Comic Sans MS; font-size:400%; color:white; text-align:center;">A Luxury Stay ...</h1>
+        <form action="./login.html" target="_blank">
+        <div class="container">
+            <div class="arrivaldate ">
+                <label>Arrival Date </label>
+                <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy">
+                    <input class="form-control" type="date">
+                    <i style="font-size:24px" class="fa">&#xf073;</i>
+                </div>
+            </div>
+            <div class="departuredate ">
+                <label>Departure Date </label>
+                <div id="datepicker" class="input-group date" data-date-format="dd-mm-yyyy">
+                    <input class="form-control" type="date">
+                    <i style="font-size:24px" class="fa">&#xf073;</i>
+                </div>
+            </div>
+            <div class="adultsdate ">
+                <label>Adults</label>
+                <div>
+                <input class="w3-input w3-border" type="number" value="1" name="Adults" min="1" max="4">  <i class="fa fa-male"></i>
+            </div></div>
+            <div class="childrendate">
+                <label>Children</label>
+                <div>
+                 <input class="w3-input w3-border" type="number" value="0" name="Kids" min="0" max="4">  <i class="fa fa-child"></i> 
+                </div>
+            </div>
+         <button class="btn" type="submit"> <i class="fa fa-search w3-margin-right"></i>  Search availability</button>
+            
+        </div>
+    
+        </form>
+		
+		
+   </section>
+  
+  
+
+      
+      
+</body>
+</html>
